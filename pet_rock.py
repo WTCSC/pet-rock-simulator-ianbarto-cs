@@ -56,13 +56,13 @@ while True:
     else:
         print("Invalid action. Please choose feed, give water, play, or do nothing.")
 
-    if hunger < -1:
+    if hunger <= 0:
         hunger = 0
-    if thirst < -1:
+    if thirst <= 0:
         thirst = 0
-    if boredom < -1:
+    if boredom <= 0:
         boredom = 0
-    if happiness > 11:
+    if happiness >= 10:
         happiness = 10
 
     display_status(happiness, hunger, thirst, boredom)
