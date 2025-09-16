@@ -16,11 +16,11 @@ while True:
         thirst -= 3
         boredom -= 3
         sleep(1)
-        print("The food was delicious!")
+        print("The food was 67 good!10/10")
         sleep(1)
         print("Thank you for feeding me!")
         sleep(1)
-        print("I feel so much better now!")
+        print("I feel so much better now, and ready to get my day started!")
         sleep(1)
 
     elif action1 == "give water":
@@ -29,7 +29,7 @@ while True:
         boredom += 3
         print("Ahh, that hits the spot!")
         sleep(1)
-        print("Thank you for giving me water!")
+        print("Thank you for giving me a bevy!")
         sleep(1)
 
     elif action1 == "play":
@@ -40,18 +40,18 @@ while True:
         sleep(1)
         print("Thank you for playing with me!")
         sleep(1)
-        print("I feel so much happier now!")
+        print("I feel so much less bored now!")
         sleep(1)
     elif action1 == "do nothing":
         hunger += 2
         thirst += 2
-        boredom += 6
-        happiness -= 6
+        boredom += 4
+        happiness -= 4
         print("Life is starting to get depressing...")
         sleep(1)
         print("I need you to do something with me!")
         sleep(1)
-        print("If you don't do something with me soon, I might die...")
+        print("If you don't do something with me soon, I will die...")
         sleep(1)
     else:
         print("Invalid action. Please choose feed, give water, play, or do nothing.")
