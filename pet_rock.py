@@ -36,6 +36,7 @@ while True:
         boredom -= 2
         hunger += 2
         thirst += 2
+        happiness += 4
         print("Yay! I love playing!")
         sleep(1)
         print("Thank you for playing with me!")
