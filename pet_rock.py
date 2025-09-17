@@ -10,8 +10,8 @@ sleep(1)
 
 
 while True:
-    action1 = input("What do you want to do? (feed, give water, play, or do nothing) ").strip().lower()
-    if action1 == "feed":
+    action1 = input("What do you want to do? ([1] feed,[2] give water,[3] play,or [4] do nothing) ").strip().lower()
+    if action1 == "1":
         hunger -= 6
         thirst -= 3
         boredom -= 3
@@ -23,7 +23,7 @@ while True:
         print("I feel so much better now, and ready to get my day started!")
         sleep(1)
 
-    elif action1 == "give water":
+    elif action1 == "2":
         thirst -= 6
         hunger -= 3
         boredom += 3
@@ -32,7 +32,7 @@ while True:
         print("Thank you for giving me a bevy!")
         sleep(1)
 
-    elif action1 == "play":
+    elif action1 == "3":
         boredom -= 2
         hunger += 2
         thirst += 2
@@ -42,7 +42,7 @@ while True:
         sleep(1)
         print("I feel so much less bored now!")
         sleep(1)
-    elif action1 == "do nothing":
+    elif action1 == "4":
         hunger += 2
         thirst += 2
         boredom += 4
